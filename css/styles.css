@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold",sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings*/
+.big-heading {
+  font-family:'Bebas Neue', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+}
+
+.h3-heading {
+  font-weight: 900;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored {
+  background-color: #f0a500;
+  color: #fff;
+}
+
+.non-colored {
+  color: #000;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* font-family: "Montserrat-Light"; */
+}
+
+/* Buttons */
+.link-button1, .link-button2 {
+  margin: 5% 3% 5% 0;
+}
+
+.link-button1:hover {
+  background-color: #FF2E55;
+  border: 0;
+}
+
+.link-button2:hover {
+  background-color: #22CF5F;
+  border: 0;
+}
+
+/* Title-Section */
+#title {
+  background-color: #f0a501;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  width: 23rem;
+  position: absolute;
+  left: 25%;
+
+}
+
+/* features Section*/
+
+#features h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.featues-box {
+  padding: 5%;
+}
+
+.features-image {
+  width: 100px;
+  border-radius: 100%;
+  padding-bottom: 10px;
+}
+
+.features-image:hover {
+  opacity: 90%;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef962d;
+  padding: 5% 15%;
+}
+
+.testimonials-image {
+  width: 18rem;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.carousel-caption{
+  margin-top:30px;
+}
+
+/* Latin Section */
+#pricing {
+  padding: 100px;
+}
+
+.padding-column {
+  padding: 3% 2%;
+}
+
+/* cta */
+/* footer */
+.icons {
+  padding: 20px 10px;
+}
+/* Ipad */
+@media (max-width: 1366px) and (min-width:1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: absolute;
+    bottom:-95.5px;
+  }
+
+}
+/* iphone */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title .container-fluid {
+    padding-bottom:0;
+  }
+
+  .title-img {
+    position: static;
+  }
+}
